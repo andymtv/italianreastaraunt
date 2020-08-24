@@ -1096,8 +1096,8 @@ header {
   outline: none;
   padding: 0px 15px;
   margin: 0;
-  font-family: 'Roboto';
-  font-size: 25px;
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -1237,6 +1237,109 @@ footer {
   color: #ffffff;
 }
 
+.modal{
+  max-width: 400px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 210px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: none;
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.modal-block{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-logo{
+  width: 100%;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  background:linear-gradient(to right, #009246 0, #009246 33%, #FFF 33%, #FFF 66%, #ce2b37 66%, #ce2b37 100%); 
+  border-radius: 5px;
+  
+}
+
+.modal-logo_image{
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.modal-message{
+  display: grid;
+  width: 100%;
+  height: 100px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.modal-message_title{
+  padding: 0;
+  margin: 5px 0px;
+  color: #000000;
+  font-family: 'Roboto Condensed';
+  text-align: center;
+}
+
+.modal-message_text{
+  padding: 0;
+  margin: 2px 0px;
+  color: #000000;
+  font-family: 'Roboto Condensed';
+  text-align: center;
+}
+
+.modal-submit{
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin: 10px 0px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #d9d9d9;
+
+}
+
+.modal-submit:hover{
+  background: #b8b8b8;
+}
+
+.msg{
+  position: relative;
+  top: 10px;
+  margin: 0px auto;
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.msg-text{
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  color: #121212;
+  text-align: center;
+  display: none;
+}
+
 .clicked {
   -webkit-animation: clicking 0.25s;
           animation: clicking 0.25s;
@@ -1349,15 +1452,6 @@ footer {
   .list-title-show{
     display: block;
   }
-
-
-  /* .list-item {
-    display: none;
-  }
-
-  .list-price {
-    display: none;
-  } */
 
   .list-title ~ li {
     display: none;

@@ -329,10 +329,13 @@
                 <p class="disc-text">VALID FROM JUNE-JULY</p>
                 <p class="disc-text-offer word">GET OUR LATEST OFFERS!</p>
                 <p class="disc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-                <div class="form">
-                    <input type="text" placeholder="Your Email" class='input input-disc'>
+                <form class="form">
+                    <input type="email" placeholder="Your Email" class='input input-disc'>
                     <button class="btn btn-subscribe-disc">SUBSCRIBE</button>
-                </div>
+                    <div class="msg">
+                        <span class="msg-text">MESSAGE</span>
+                    </div>
+                </form>
                 
                 
 
@@ -384,6 +387,22 @@
             </div>
         </div>
     </footer>
+    <div class="modal">
+        <div class="modal-block">
+        <div class="modal-logo">
+            <img src="img/header/logo2.png" class="modal-logo_image">
+        </div>
+        <div class="modal-message">
+            <p class="modal-message_title">CONGRATULATIONS!!!</p>
+            <p class="modal-message_text">
+                Your are successfully subscribed! <br>
+                 We sent you a 10% discount <br>
+                 on your first order!
+            </p>
+            <button class="modal-submit">Okay</button>
+        </div>
+    </div>
+    </div>
 <script>
      btnSubscribe = document.querySelector('.btn-subscribe-disc');
 
