@@ -1,13 +1,11 @@
 html {
   width: 100%;
-  max-width: 1366px;
   min-width: 768px;
   margin: 0 auto;
 }
 
 body {
   width: 100%;
-  max-width: 1366px;
   min-width: 768px;
   margin: 0 auto;
   padding: 0;
@@ -18,14 +16,13 @@ header {
   padding: 0;
   height: 1100px;
   width: 100%;
-  max-width: 1366px;
+
   min-width: 768px;
   position: relative;
 }
 
 .menu {
   width: 100%;
-  max-width: 1366px;
   min-width: 768px;
   height: 4rem;
   min-height: 1rem;
