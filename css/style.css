@@ -16,7 +16,6 @@ header {
   padding: 0;
   height: 1100px;
   width: 100%;
-
   min-width: 768px;
   position: relative;
 }
@@ -170,7 +169,6 @@ header {
           flex-direction: column;
   height: auto;
   width: 100%;
-  max-width: 1366px;
   position: relative;
 }
 
@@ -290,7 +288,6 @@ header {
           flex-direction: column;
   width: 100%;
   height: auto;
-  max-width: 1366px;
   position: relative;
   margin-top: 100px;
 }
@@ -298,7 +295,6 @@ header {
 .menu-section-bg {
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,7 +310,6 @@ header {
 .menu-bg-img {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -326,7 +321,6 @@ header {
 .menu-bg-mask-0 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -338,7 +332,6 @@ header {
 .menu-bg-mask-1 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -509,7 +502,6 @@ header {
 
 .order-section {
   width: 100%;
-  max-width: 1366px;
   height: auto;
   position: relative;
   margin-top: 150px;
@@ -528,7 +520,6 @@ header {
 .order-info {
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: auto;
 }
 
@@ -662,7 +653,6 @@ header {
   position: relative;
   margin-top: 250px;
   width: 100%;
-  max-width: 1366px;
   height: 964px;
 }
 
@@ -671,7 +661,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 1366px;
   height: max-content;
   z-index: -1;
 }
@@ -679,7 +668,6 @@ header {
 .order-bg-mask-0 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: fit-content;
   top: -120px;
   left: 0;
@@ -689,7 +677,6 @@ header {
 .order-bg-mask-1 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: fit-content;
   bottom: -160px;
   left: 0;
@@ -699,7 +686,6 @@ header {
 .info-section {
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: auto;
   max-height: 940px;
 }
@@ -719,7 +705,6 @@ header {
       justify-content: space-around;
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: 940px;
 }
 
@@ -772,7 +757,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 1366px;
   height: 940px;
   z-index: -1;
 }
@@ -839,7 +823,6 @@ header {
 
 .disc-section {
   width: 100%;
-  max-width: 1366px;
   height: auto;
   position: relative;
   display: -webkit-box;
@@ -858,14 +841,12 @@ header {
 .disc-info {
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: auto;
 }
 
 .disc-container {
   height: 790px;
   width: 100%;
-  max-width: 1366px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -934,7 +915,6 @@ header {
 .disc-bg-mask {
   position: relative;
   width: 100%;
-  max-width: 1366px;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -953,14 +933,12 @@ header {
   left: 0;
   width: 100%;
   height: fit-content;
-  max-width: 1366px;
   z-index: -1;
 }
 
 .disc-bg-mask-0 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   height: fit-content;
   top: -120px;
   left: 0;
@@ -970,7 +948,6 @@ header {
 .disc-bg-mask-1 {
   position: absolute;
   width: 100%;
-  max-width: 1366px;
   bottom: -160px;
   height: fit-content;
   left: 0;
@@ -994,7 +971,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 1366px;
   height: 100%;
   z-index: -1;
 }
@@ -1069,7 +1045,6 @@ header {
 
 .form {
   min-width: 480px;
-  max-width: 1366px;
   width: 500px;
   display: -ms-grid;
   display: grid;
@@ -1128,7 +1103,6 @@ header {
 footer {
   height: 600px;
   width: 100%;
-  max-width: 1366px;
   min-width: 768px;
   background-color: #008c45;
   margin-top: 100px;
