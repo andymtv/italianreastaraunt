@@ -474,6 +474,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 25px;
+  cursor: pointer;
 }
 
 .list-title-show {
@@ -488,6 +489,7 @@ header {
   text-align: center;
   justify-self: flex-end;
   transform: rotate(45deg);
+  cursor: pointer;
 }
 
 .list-pasta .list-title-line {
